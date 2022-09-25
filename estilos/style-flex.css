@@ -1,0 +1,777 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Permanent Marker', cursive;
+}
+body{
+	background-color: darkgrey;
+	
+
+}
+
+
+
+
+
+#hero{
+	width: 100%;
+	height: 100vh;
+	background-color: #151413 ;
+
+}
+.contenedor-hero img{
+	
+	margin-top: 110px;
+	width: 400px;
+	height: 400px;
+}
+.contenedor-hero{
+	display: flex;
+	align-items: center;
+}
+
+.parrafo h2{
+	text-shadow: 4px 4px 10px #E34B16;
+	cursor: pointer;
+	font-size: 100px;
+	margin-bottom: 70px;
+	
+	color: white;
+	text-align: center;
+	width: 300px;
+
+}
+.parrafo p{
+	cursor: pointer;
+
+	color: #F5A128 ;
+	font-family: 'Antonio', sans-serif;
+	font-size: 14px;
+	margin-right: 20px;
+	text-shadow: 4px 4px 20px lightgrey;
+}
+
+
+#hero2{
+	width: 100%;
+	height: 100vh;
+	background-color: #151413 ;
+}
+.contenedor-hero2 img{
+	margin-right: 100px;
+	width: 400px;
+	height: 400px;
+}
+.contenedor-hero2{
+	display: flex;
+	align-items: center;
+
+	  }
+	  .parrafo2 h2{
+text-align: center;
+	  	text-shadow: 4px 4px 10px #E34B16;
+	cursor: pointer;
+	font-size: 50px;
+	color: white;
+
+	  }
+.parrafo2 p{
+	margin-top: 30px;
+	margin-right: 30px;
+	margin-left: 30px;
+	font-weight: bold;
+	text-align: center;
+	color: #F5A128 ;
+	cursor: pointer;
+	font-size: 17px;
+	font-family: 'Antonio', sans-serif;
+	text-shadow: 1px 1px 3px lightgrey;
+
+
+}
+
+
+
+
+
+
+
+
+
+header{
+	
+
+	background-color: #F0A907 ;
+	padding: 2px;
+
+}
+.titulo h1{
+	cursor: pointer;
+	text-shadow: 2px 3px 4px white;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	color :black;
+
+}
+
+
+.contenedor{
+	
+	border:5px groove #EA8C06 ;
+	border-radius: 20px;
+	background-image: url(https://statics.viralizalo.com/virs/2016/01/VIR_71058_6259_que_elemento_ninjutsu_de_naruto_controlarias_que_tipo_de_ninja_serias.jpg?cb=24529);
+
+	height: 83vh;
+	width: 80%;
+	margin: auto;
+	margin-top: 25px;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+	box-shadow: 9px 10px 10px black;
+
+
+}
+
+.fixed{
+	position: fixed;
+	width: 100%;
+	
+}
+
+nav{
+
+	background-color: #2C2925 ;
+	padding: 5px;
+}
+.nav a{
+	text-decoration: none;
+	color: orange;
+	text-shadow: 3px 3px 4px black;
+}
+.nav a:hover{
+	text-shadow: 
+}
+.nav a:hover{
+	text-shadow: 3px 3px 4px white;
+
+	margin-right: 30px;
+}
+nav li{
+	list-style-type: none;
+}
+.nav__li i{
+	cursor: pointer;
+	color:  #F37308;
+	margin-right: 10px;
+	font-size: 20px;
+	text-shadow: 3px 3px 4px black;
+}
+
+
+
+
+
+
+
+
+
+
+
+.container{
+	display: flex;
+	justify-content: space-around;
+}
+img{
+	height: 150px;
+	width: 150px;
+	object-fit: cover;
+	margin-top: 20px;
+}
+
+}
+.contenedor h2{
+	border:1px solid white;
+	border-radius: 15px;
+	margin-top: 5px;
+	color: white;
+	background-color:black;
+	text-align: center;
+}
+.img1 img{
+	margin-left: 15px;
+	border: 2px solid orange;
+	border-radius: 50px;
+
+}
+.titulo1 h2{
+	
+	background-color: #F57D13 ;
+	color: black;
+	text-shadow: 2px 3px 4px white;
+	border: 2px solid white;
+	border-radius: 15px;
+	text-align: center;
+	margin-top: 10px;
+
+}
+.text1 p{
+	border:2px  solid white;
+	background-color: #343130 ;
+	padding: 3px;
+	color: white;
+	font-size: 8px;
+	
+	width: 200px;
+	height: 100%;
+	margin-top: 10px;
+
+}
+.text1 p:hover{
+	height: 100%;
+	padding: 3px;
+	cursor: pointer;
+	color: black;
+	background-color: #C2654A ;
+	box-shadow: 10px 10px 60px white;
+}
+
+
+
+
+
+
+
+
+
+
+.img2 img{
+	margin-left: 15px;
+	border: 2px solid orange;
+	border-radius: 50px;
+}
+
+.titulo2 h2{
+	background-color: #F57D13 ;
+	border:2px solid white;
+	color: black;
+	text-shadow: 2px 3px 4px white;
+	border: 2px solid white;
+	border-radius: 15px;
+	text-align: center;
+	margin-top: 10px;
+
+}
+
+.text2 p{
+	background-color: #343130;
+	font-size: 8px;
+	width:200px;
+	height: 100%;
+	color: white;
+	margin-top:10px;
+	padding: 3px;
+	border:2px solid white;
+}
+.text2 p:hover{
+	height: 100%;
+	padding: 3px;
+	cursor: pointer;
+	color: black;
+	background-color:#2756DC ;
+	box-shadow: 10px 10px 60px white;
+}
+
+
+
+
+
+
+.img3 img{
+	margin-left: 15px;
+	border: 2px solid orange;
+	border-radius: 50px;
+}
+
+.titulo3 h2{
+	background-color: #F57D13 ;
+	border:2px solid white;
+	color: black;
+	text-shadow: 2px 3px 4px white;
+	border: 2px solid white;
+	border-radius: 15px;
+	text-align: center;
+	margin-top: 10px;
+
+}
+
+.text3 p{
+	background-color: #343130;
+	font-size: 8px;
+	width:200px;
+	height: 100%;
+	color: white;
+	margin-top:10px;
+	padding: 3px;
+	border:2px solid white;
+}
+.text3 p:hover{
+	height: 100%;
+	padding: 3px;
+	cursor: pointer;
+	color: black;
+	background-color:#38CABA  ;
+	box-shadow: 10px 10px 60px white;
+}
+#tienda{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	font-family: sans-serif;
+
+
+}
+.conteiner{
+	width: 100%;
+	max-width: 1100px;
+	display: flex;
+	text-align: center;
+	margin: auto;
+}
+.card{
+	cursor: default;
+	width: 100%;
+	height: 440px;
+	margin: 20px;
+	border-radius: 6px;
+	overflow: hidden;
+	background-color: #fff;
+	box-shadow: 2px 1px 10px lightgrey;
+}
+.card:hover{
+	box-shadow: 5px 4px 10px black;
+	transform: translateY(-8px);
+
+
+}
+.conteiner h2{
+	text-align: center;
+}
+.contenido p{
+	font-size: 11px;
+	margin: 6px;
+	font-family: 'Kanit', sans-serif;
+	font-weight: 700;
+
+}
+
+.contenido h3{
+	font-weight:100;
+	color: red;
+}
+.contenido button{
+padding: 10px;
+color: white;
+background-color: green;
+border-style: none;
+margin-top: 10px;
+border-radius: 15px;
+
+}
+.contenido button:hover{
+	color: red;
+	box-shadow: 2px 3px 10px darkgrey;
+}
+
+/*tienda 2*/
+#tienda2{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	font-family: sans-serif;
+	background-color: #F3F1EE ;
+}
+.con{
+	display: flex;
+	text-align: center;
+	align-items: center;
+
+}
+.objetos img{
+	width: 430px;
+	height: 430px;
+	margin-left:130px; 
+	border: 4px solid #C06C00 ;
+}
+.objetos{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+
+
+.text-img{
+	margin: 40px;
+	
+
+}
+.text-img h3{
+	letter-spacing: 7px;
+	text-shadow: 4px 3px 8px black;
+	cursor: pointer;
+	margin-bottom: 30px;
+	font-size: 40px;
+	font-family: 'Anton', sans-serif;
+	color: #E5942C ;
+}
+.text-img p{
+	cursor: default;
+	font-size: 10px;
+	color: black;
+	font-family: 'Anton', sans-serif;
+	margin: 5px;
+	text-shadow: 2px 2px 5px orange;
+	letter-spacing: 2px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*personajes*/
+
+button{
+	margin-top: 15px;
+	cursor: pointer;
+	font-size: 14px;
+	color: white;
+	background-color: green;
+	padding: 10px;
+	border-radius: 15px;
+	border:1px solid black;
+}
+button:hover{
+	color: #C13F16 ;
+	background-color: lightgreen;
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.pers img{
+	width: 150px;
+	height: 150px;
+	border: 2px solid orange;
+	border-radius: 20px;
+
+}
+.conteiner-gen{
+	width: 100%;
+	height: 650px;
+background-image: linear-gradient(
+	0deg,
+	rgba(0,0,0,0.5),
+	rgba(0,0,0,0.5)
+	)
+,url(imageness/naruto/fond-naruto.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+
+
+	display: flex;
+	align-items: center;
+}
+.pers{
+	border-radius: 15px;
+	border:1px solid black;
+	align-items: center;
+	padding: 10px;
+	margin: 30px;
+	background-color:#292421  ;
+	text-align: center;
+}
+.pers h3{
+	font-size: 20px;
+	font-weight: bold;
+	cursor: pointer;
+	font-family: 'Nabla', cursive;
+}
+.pers p {
+	cursor: pointer;
+	color: black;
+	background-color: #D5A93F   ;
+	font-size: 14px;
+	font-weight: 500;
+	font-family: 'Ubuntu', sans-serif;
+	border: 1px solid white;
+	border-radius: 14px;
+	margin: 10px;
+}
+.pers p:hover{
+	background-color: #EEB21D ;
+	transition-delay: 100ms;
+	color: black;
+	box-shadow: 2px 4px 8px white;
+}
+
+
+
+
+
+
+
+
+
+
+.pers2 img{
+	width: 150px;
+	height: 150px;
+	border: 2px solid red;
+	border-radius: 20px;
+
+}
+.conteiner-gen2{
+	width: 100%;
+	height: 550px;
+background-image:linear-gradient(
+	0deg,
+	rgba(0,0,0,0.5),
+	rgba(0,0,0,0.5)
+	)
+,url(imageness/naruto/terror.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+
+
+	display: flex;
+	align-items: center;
+}
+.pers2{
+	border-radius: 15px;
+	border:1px solid black;
+	align-items: center;
+	padding: 10px;
+	margin: 30px;
+	background-color:#292421  ;
+	text-align: center;
+}
+.pers2 h3{
+	padding: 5px;
+	font-size: 20px;
+	font-weight: bold;
+	cursor: pointer;
+	font-family: 'Nabla', cursive;
+}
+.pers2 p {
+	cursor: pointer;
+	color: black;
+	background-color: #C93922   ;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: 'Ubuntu', sans-serif;
+	border: 1px solid white;
+	border-radius: 14px;
+	padding: 15px;
+}
+.pers2 p:hover{
+	background-color: #EEB21D ;
+	transition-delay: 100ms;
+	color: black;
+	box-shadow: 2px 2px 12px white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pers3 img{
+	width: 150px;
+	height: 150px;
+	border: 5px solid violet;
+	border-radius: 20px;
+
+}
+.conteiner-gen3{
+	width: 100%;
+	height: 550px;
+background-image: linear-gradient(
+	0deg,
+	rgba(0,0,0,0.5),
+	rgba(0,0,0,0.5)
+	)
+,url(imageness/naruto/fuego.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+
+
+	display: flex;
+	align-items: center;
+}
+.pers3{
+	border-radius: 15px;
+	border:1px solid black;
+	align-items: center;
+	padding: 10px;
+	margin: 30px;
+	background-color:#292421  ;
+	text-align: center;
+}
+.pers3 h3{
+	padding: 5px;
+	font-size: 20px;
+	font-weight: bold;
+	cursor: pointer;
+	font-family: 'Nabla', cursive;
+}
+.pers3 p {
+	cursor: pointer;
+	color: black;
+	background-color: blueviolet  ;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: 'Ubuntu', sans-serif;
+	border: 1px solid white;
+	border-radius: 14px;
+	padding: 15px;
+}
+.pers3 p:hover{
+	background-color:  violet;
+	transition-delay: 100ms;
+	color: black;
+	
+	box-shadow: 2px 2px 12px white;
+}
+
+
+
+/*ayuda*/
+
+
+
+
+
+
+
+#help{
+	width: 100%;
+	height: 100vh;
+	background-color: #151413 ;
+
+}
+.contenedor-help img{
+	
+	margin-top: 110px;
+	margin-right: 80px;
+	width: 400px;
+	height: 400px;
+}
+.contenedor-help{
+	display: flex;
+	align-items: center;
+}
+
+.parrafo-help h2{
+	text-shadow: 4px 4px 10px #E34B16;
+	cursor: pointer;
+	font-size: 70px;
+	margin-top: 90px;
+	margin-left: 240px;
+	
+	color: white;
+	text-align: center;
+	width: 300px;
+
+}
+.parrafo-help p{
+	cursor: pointer;
+text-align: center;
+	color: #F5A128 ;
+	font-family: 'Antonio', sans-serif;
+	font-size: 15px;
+	margin-left: 80px;
+	margin-top: 110px;
+
+	text-shadow: 4px 4px 10px lightgrey;
+}
+.parrafo-help a{
+	margin-left: 20px;
+	color: white;
+	font-size: 14px;
+	text-decoration: none;
+}
+.parrafo-help a:hover{
+	color: lightgreen;
+}
+.parrafo-help a:visited{
+	color: white;
+}
+
+
+
+footer{
+
+
+	background-color: #2C2925;
+    padding: 45px 0px;
+}
+.fot{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+footer ul{
+	list-style-type: none;
+}
+footer li{
+	list-style-type: none;
+}
+footer a{
+	text-decoration: none;
+}
+.nav_a i{
+	font-size: 40px;
+	color: #C4712C ;
+
+}
+.nav_a {
+	margin-right: 220px;
+}
+
+.contenedor-foot{
+	display: flex;
+	justify-content: center;
+	margin-left: 150px;
+	
+}
+
+
+
